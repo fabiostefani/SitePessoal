@@ -1,0 +1,16 @@
+---
+layout: mainArtigos.html
+title: Artigos
+image: /images/livros.jpeg
+---
+
+<ul class="article-list">
+  {{#each collections.articles}} {{#unless skip }}
+  <li class="article-item">
+    <a class="article-link" href="/{{ path }}/">
+      <span class="article-title">{{ title }}</span>
+      <span class="article-date">{{ date }}</span>
+    </a>
+  </li>
+  {{/unless}} {{/each}}
+</ul>

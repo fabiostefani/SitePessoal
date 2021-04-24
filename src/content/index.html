@@ -1,0 +1,39 @@
+---
+layout: main.html
+tagline: Escrever código e buscar sempre ser 1% melhor a cada dia.
+image: /images/chuck-norris-1.jpg
+---
+
+<p align="justify">
+  Falar sobre o Fabio, o gostosão
+</p>
+
+<h1>Últimos Artigos</h1>
+
+<ul class="article-list">
+  {{#each collections.homeArticles}} {{#unless skip }}
+  <li class="article-item">
+    <a class="article-link" href="/{{ path }}/">
+      <span class="article-title">{{ title }}</span>
+      <span class="article-date">{{ date }}</span>
+    </a>
+  </li>
+  {{/unless}} {{/each}}
+</ul>
+
+<h1>Últimos Projetos & Tutoriais</h1>
+
+<ul class="article-list">
+  <li class="article-item">
+    <a class="article-link" href="https://github.com/fabiostefani/TaxaJuros">
+      <span class="article-title">Taxa de Juros</span>
+      <span class="article-date">05 Março, 2021</span>
+    </a>
+  </li>
+  <li class="article-item">
+    <a class="article-link" href="https://github.com/fabiostefani/CalculoJuros">
+      <span class="article-title">Calculo de Juros</span>
+      <span class="article-date">05 Março, 2021</span>
+    </a>
+  </li>
+</ul>
