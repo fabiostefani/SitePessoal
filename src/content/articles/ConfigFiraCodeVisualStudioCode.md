@@ -1,8 +1,6 @@
 ---
-title: Configurando Fira Code no VS Code
+title: Configurando a fonte *Fira Code* no VS Code
 ---
-
-# Configurando Fira Code no VS Code
 
 
 <p align="justify">
@@ -11,7 +9,7 @@ Isso me fez procurar alguma fonte que possuisse ligaduras (que basicamente são 
 Veja aqui alguns exemplos
 </p>
 <p align="center">
-  <img src="https://i.imgur.com/AXvHOhz.png" />
+  <img src="https://i.imgur.com/pnVl1AU.png" />
 </p>
 
 <p align="justify">
@@ -19,28 +17,24 @@ Então, descobri a fonte <a href="https://github.com/tonsky/FiraCode"><b>Fira Co
 É uma extensão da fonte Fira Mono que contém um conjunto de ligaduras para combinações de vários caracteres de programação comuns. Este é apenas um recurso de renderização de fonte: o código subjacente permanece compatível com ASCII. Isso me ajuda a ler e entender o código mais rapidamente. 
 </p>
 
----
 ## Configurando o VS Code
 
 Para se utilizar essa fonte no VS Code, você deve realizar alguns passos.
 
 1. Baixar a fonte do repositório [GitHub](https://github.com/tonsky/FiraCode)
 2. Efetuar a instalação das fontes no windows. Instale as fontes TTF.
-<br>
 <p align="center">
-  <img src="https://i.imgur.com/W2yCzsn.png" />
+  <img src="https://i.imgur.com/W2yCzsn.png"/>
 </p>
 
 3. Abra o VS Code e acesse as configurações do usuário. Pressione *`CTRL + ,`* para abrir as configurações.
 
 4. Na seção Font Family, adicione 'Fira Code' 
-<br>
 <p align="center">
   <img src="https://i.imgur.com/O8djF4K.png" />
 </p>
 
 5.  Depois no campo de busca, procure por **editor.fontLigatures**
-<br>
 E clique em edit Settings.json.
 <p align="center">
   <img src="https://i.imgur.com/whmL00t.png" />
