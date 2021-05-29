@@ -1,5 +1,5 @@
 ---
-title: Configurando a fonte *Fira Code* no VS Code
+title: Configurando a fonte Fira Code no VS Code
 ---
 
 
