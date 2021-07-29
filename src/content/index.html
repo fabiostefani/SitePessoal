@@ -5,7 +5,7 @@ image: /images/capa.jpg
 ---
 
 <p align="justify">
-  Fabio de Stefani é Tech Lead na <b><a href="www.useall.com.br">Useall Software</a></b> com foco em back-end. Iniciei minha jornada em desenvolvimento no ano de 2006 na linguagem Power Builder e 
+  Fabio de Stefani é Tech Lead na <b><a href="www.useall.com.br">Useall Software</a></b> com foco em desenvolvimento de back-end. Iniciei minha jornada em desenvolvimento no ano de 2006 na linguagem Power Builder e 
   em 2010 comecei a engatinhar algumas coisas com <b><a href="(https://dotnet.microsoft.com/">.NET</a></b>. Em 2012 que tive foco e oportunidade em realmente trabalhar com essa stack.
   Durante esse periodo, muito conhecimento adquirido. Muitos outros frameworks e bibliotecas estudadas e utilizadas.
 </p>
@@ -15,33 +15,50 @@ image: /images/capa.jpg
   software de Distribuidoras de Energia Elétrica. Curto muito estar em constante busca de conhecimento, mas confesso que não é fácil acompanhar toda essa loucura de inovação que ocorre no mundo de desenvolvimento. Mas bora lá que conseguimos ser cada dia 1% melhor...
 </p>  
 
+<h1>Um pouco de meu trabalho pessoal</h1>
 
-<h1>Últimos Artigos</h1>
-
-<ul class="article-list">
-  {{#each collections.homeArticles}} {{#unless skip }}
-  <li class="article-item">
-    <a class="article-link" href="/{{ path }}/">
-      <span class="article-title">{{ title }}</span>
-      <span class="article-date">{{ date }}</span>
+<div class="cards">  
+  <div class="card" style="width: 15rem; display: inline-block">
+    <a href="https://fabiostefani.medium.com/" >
+        <img class="resource-img-links" src="/images/medium.png" alt="Card image cap">
+        <div >
+          <h3>Artigos</h3>
+          <p>Veja as dicas que já publiquei no Medium.</p>      
+        </div>
     </a>
-  </li>
-  {{/unless}} {{/each}}
-</ul>
-
-<h1>Últimos Projetos & Tutoriais</h1>
-
-<ul class="article-list">
-  <li class="article-item">
-    <a class="article-link" href="https://github.com/fabiostefani/TaxaJuros">
-      <span class="article-title">Taxa de Juros</span>
-      <span class="article-date">05 Março, 2021</span>
+  </div>  
+  <div class="card" style="width: 15rem; display: inline-block">
+    <a href="https://fabiostefani.medium.com/" >
+      <img class="resource-img-links" src="/images/youtube2.png" alt="Card image cap">
+      <div >
+        <h3>YouTube</h3>
+        <p>Em breve um novo projeto</p>      
+      </div>
     </a>
-  </li>
-  <li class="article-item">
-    <a class="article-link" href="https://github.com/fabiostefani/CalculoJuros">
-      <span class="article-title">Calculo de Juros</span>
-      <span class="article-date">05 Março, 2021</span>
+  </div>
+</div>
+
+
+<h1>Algumas dicas</h1>
+
+
+<div class="cards">  
+  <div class="card" style="width: 15rem; display: inline-block">
+    <a href="/courses/index.html" >
+      <img class="resource-img-links" src="/images/courses.png" alt="Card image cap">
+      <div >
+        <h3>Cursos</h3>
+        <p>Alguns cursos que finalizei.</p>      
+      </div>
     </a>
-  </li>
-</ul>
+  </div>
+  <div class="card" style="width: 15rem; display: inline-block">
+    <a href="/books/index.html" >    
+      <img class="resource-img-links" src="/images/171322.png" alt="Card image cap">
+      <div >
+        <h3>Livros</h3>
+        <p>Em breve publicarei uma lista de livros que considero legais de serem lidos.</p>      
+      </div>
+    </a>
+  </div>
+</div>
