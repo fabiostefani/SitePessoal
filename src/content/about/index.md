@@ -32,8 +32,8 @@ image: /images/codigo.jpg
 
   Fica aqui uma dica. Jamais pensem em desistir daquilo que vocês amam fazer! Se você encontrou aquilo que realmente ama, procure meios de estudar, estudar e estudar para alcançar com seu objetivo. Pois se você ama o que faz, os resultados do seu trabalho virão como consequência.
 </p>
-<blockquote style='text-align: center;'>”Stay hungry. Stay foolish.” ~ Steve Jobs</blockquote>
+<blockquote style='text-align: center;'>”Stay hungry, stay foolish.” ~ Steve Jobs</blockquote>
 
 <p align="justify">
-  Hoje, atuo como Tech Lead/Analista/Programador .NET na <b><a href="www.useall.com.br/">Useall Software</a></b> e estou muito feliz e contente na profissão escolhida. E pretendo continuar essa jornada de dev por muitos e muitos anos! 
+  Hoje, atuo como Tech Lead/Analista/Programador .NET na <b><a href="www.useall.com.br/">Useall Software</a></b>. Estou muito feliz e contente na profissão escolhida. E pretendo continuar essa jornada de dev por muitos e muitos anos! 
 </p>

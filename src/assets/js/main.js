@@ -54,6 +54,6 @@ function fixHeroHeight() {
   const postHeader = document.querySelector(".post-header");
 
   if (postHeader) {
-    postHeader.style.height = `${document.documentElement.clientHeight}px`;
+    postHeader.style.height = `25px`;
   }
 }
